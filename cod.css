@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media screen and (min-width: 1024px) {
+  .zurag {
+    object-fit: cover;
+    height: 30vh;
+    width: 15vw;
+    border-radius: 6px;
+  }
+  .gadna {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+  }
+  .gaduur {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    margin-right: 5vw;
+    margin-left: 5vw;
+  }
+  .heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .zurag {
+    object-fit: cover;
+    height: 30vh;
+    width: 30vw;
+    border-radius: 6px;
+  }
+  .gadna {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .gaduur {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+  }
+  .heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw;
+  }
+}
+@media screen and (max-width: 768px) {
+  .zurag {
+    object-fit: cover;
+    height: 30vh;
+    width: 90vw;
+    border-radius: 6px;
+    margin: 5px;
+  }
+  .gadna {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .gaduur {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+  }
+  .heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .text {
+    width: 20vw;
+    background-color: gray;
+    border-radius: 6px;
+    padding: 2.5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3vh;
+    justify-content: space-between;
+  }
+  .outimg {
+    width: 65vw;
+    display: flex;
+    gap: 5px;
+    margin-top: 5vh;
+  }
+  .true {
+    font-size: 1.5vw;
+  }
+  .bzurag {
+    height: 15vh;
+    width: 20vw;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+  .ug {
+    font-size: 1.5vw;
+    color: gray;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 20vh;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .text {
+    width: 90vw;
+    background-color: gray;
+    border-radius: 6px;
+    padding: 2.5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3vh;
+  }
+  .outimg {
+    width: 90vw;
+    display: flex;
+    gap: 5px;
+  }
+  .true {
+    font-size: 3vw;
+  }
+  .bzurag {
+    height: 15vh;
+    width: 30vw;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+  .ug {
+    font-size: 3vw;
+    color: gray;
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 20vh;
+  }
+}
